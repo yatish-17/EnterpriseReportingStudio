@@ -1,0 +1,50 @@
+# Build outputs
+[Oo]bj/
+[Bb]in/
+**/obj/
+**/bin/
+*.tsbuildinfo
+coverage/
+TestResults/
+publish/
+dist/
+**/dist/
+desktop/
+
+# Node
+node_modules/
+**/.vite/
+
+# Secrets and local config
+**/.env*
+!**/.env.example
+secrets/*.json
+**/appsettings.Local.json
+**/appsettings.Production.json
+*.pfx
+*.p12
+*.pem
+*.key
+
+# IDE
+.vscode/
+.idea/
+.vs/
+*.user
+*.suo
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Local database and diagnostic files
+*.mdf
+*.ldf
+*.bak
+*.trn
+*.dmp
+*.tmp

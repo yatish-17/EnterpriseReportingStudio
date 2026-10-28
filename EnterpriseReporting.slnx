@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/backend/">
+    <Project Path="backend/EnterpriseReporting.Api/EnterpriseReporting.Api.csproj" />
+    <Project Path="backend/EnterpriseReporting.Application/EnterpriseReporting.Application.csproj" />
+    <Project Path="backend/EnterpriseReporting.Domain/EnterpriseReporting.Domain.csproj" />
+    <Project Path="backend/EnterpriseReporting.Infrastructure/EnterpriseReporting.Infrastructure.csproj" />
+    <Project Path="backend/EnterpriseReporting.Tests/EnterpriseReporting.Tests.csproj" />
+  </Folder>
+</Solution>

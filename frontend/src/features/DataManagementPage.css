@@ -1,0 +1,134 @@
+.data-management-page {
+  width: min(100%, 1120px);
+  margin: 0 auto;
+}
+
+.data-management-heading {
+  margin-bottom: 28px;
+}
+
+.data-management-heading h1 {
+  margin: 9px 0 7px;
+  color: #293e34;
+  font-family: var(--font-display);
+  font-size: clamp(25px, 3vw, 34px);
+  font-weight: 600;
+  letter-spacing: -.045em;
+}
+
+.data-management-heading p {
+  margin: 0;
+  color: #7d8c82;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.data-management-folders {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.data-management-folder {
+  display: flex;
+  min-width: 0;
+  min-height: 142px;
+  align-items: center;
+  gap: 17px;
+  padding: 23px;
+  border: 1px solid #d6e4d9;
+  border-radius: 13px;
+  color: #3c5d4d;
+  background: linear-gradient(120deg, #eef6ef, #fff);
+  box-shadow: 0 7px 22px rgb(36 60 47 / 5%);
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 150ms ease, box-shadow 150ms ease, transform 150ms ease;
+}
+
+.data-management-folder:hover {
+  transform: translateY(-2px);
+  border-color: #9fbea8;
+  box-shadow: 0 12px 26px rgb(36 60 47 / 9%);
+}
+
+.data-management-folder:focus-visible {
+  outline: 3px solid #8db69b;
+  outline-offset: 3px;
+}
+
+.data-management-folder-icon {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  flex: 0 0 auto;
+  place-items: center;
+  border: 1px solid #d6e6d9;
+  border-radius: 12px;
+  color: #438166;
+  background: #f7fbf7;
+}
+
+.data-management-folder-copy {
+  display: grid;
+  flex: 1;
+  gap: 7px;
+}
+
+.data-management-folder-copy strong {
+  color: #34483c;
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 650;
+  letter-spacing: -.02em;
+}
+
+.data-management-folder-copy small {
+  color: #7d8c82;
+  font-size: 11px;
+  line-height: 1.65;
+}
+
+.data-management-folder-arrow {
+  flex: 0 0 auto;
+  color: #84988b;
+}
+
+.data-management-subpage {
+  display: grid;
+  gap: 14px;
+}
+
+.data-management-back {
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 0;
+  border: 0;
+  color: #527564;
+  background: transparent;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.data-management-back:hover {
+  color: #2f684f;
+}
+
+.data-management-back:focus-visible {
+  outline: 2px solid #8db69b;
+  outline-offset: 3px;
+}
+
+.data-management-back svg {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 700px) {
+  .data-management-folders {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
