@@ -4,6 +4,16 @@ Enterprise Reporting Studio is a web-based reporting workspace for connecting
 to SQL Server data, building reusable datasets, designing reports, and
 publishing reports for role-authorized viewers.
 
+## Application screenshots
+
+### Administrator workspace
+
+![Enterprise Reporting Studio administrator workspace](docs/images/admin-workspace.png)
+
+### Report viewer dashboard
+
+![Enterprise Reporting Studio report viewer dashboard](docs/images/user-dashboard.png)
+
 ## Features
 
 - Tenant-scoped sign-in and Admin, Report Designer, and Report Viewer roles.
